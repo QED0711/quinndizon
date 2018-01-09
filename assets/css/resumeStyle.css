@@ -1,0 +1,85 @@
+.resume {
+  background-color:black;
+}
+
+.resume #resume-background div {
+  background-color:cornsilk;
+  color:black;
+}
+
+.resume #resume-banner {
+  text-align:center;
+  background-image:url(../../assets/img/contact.jpg);
+}
+
+.resume #resume-container {
+  background-color:cornsilk;
+  border-radius:8px;
+  margin-top:30px;
+}
+
+.resume #headshot {
+  /*background-image:url(../../assets/img/resumeHeadshot.jpg);*/
+  /*height:250px;*/
+  /*background-size:contain;*/
+  /*background-repeat:no-repeat;*/
+  /*padding-bottom:10px;*/
+}
+
+.resume .heading p {
+  margin-top:-10px;
+}
+
+.col-md-3.heading button {
+  margin-bottom:10px;
+  margin-top:-8px;
+}
+
+.resume #about {
+  border-style:hidden hidden hidden solid;
+  border-color:grey;
+}
+
+.resume #resume-background h4 {
+  color:black;
+}
+
+.resume #resume-header {
+  margin-top:20px;
+  padding-top:20px;
+  background-color:seashell;
+  border-radius:8px;
+}
+
+.resume #resume-body {
+  margin-top:20px;
+  padding-top:20px;
+  background-color:seashell;
+  border-radius:8px;
+}
+
+.resume .contact-info {
+  margin-top:-20px;
+  margin-left:10px;
+}
+
+.resume .contact-info p {
+  margin-top:-10px;
+}
+
+.resume .section p {
+  margin-top:-10px;
+}
+
+.resume .shortform {
+}
+
+.resume .shortform p {
+  margin-top:-12px;
+  padding-left:15px;
+}
+
+.resume .shortform h5 {
+  margin-top:-6px;
+}
+

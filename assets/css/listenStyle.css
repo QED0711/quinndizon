@@ -1,0 +1,56 @@
+.listen {
+  background-color:black;
+  padding-bottom:30px;
+}
+
+.listen #listen-banner {
+  background-image:url(../../assets/img/listen.jpeg);
+  background-size:cover;
+  min-height:75px;
+  text-align:center;
+  color:black;
+  border-radius:10px;
+}
+
+.listen #page-title {
+  margin:0 0 0 0;
+  padding-top:10px;
+  color:black;
+}
+
+.listen h3 {
+  color:white;
+}
+
+.listen .work-title {
+  color:grey;
+  /*border-style:solid hidden hidden hidden;*/
+  /*border-color:grey;*/
+  margin-bottom:10px;
+  padding-bottom:0;
+  margin-left:5px;
+  font-style:italic;
+}
+
+.listen .img-responsive {
+  border-radius:8px;
+  height:116px;
+  margin-bottom:10px;
+  border-style:solid solid solid solid;
+  border-color:grey;
+}
+
+.listen #home-link {
+  border-radius:50px;
+  border-right:outset;
+}
+
+.listen .genre-heading {
+  border-style:hidden hidden solid hidden;
+  border-color:grey;
+}
+
+.listen .genre h4 {
+  color:grey;
+}
+
