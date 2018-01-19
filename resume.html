@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="assets/css/eventsStyle.css">
     <link rel="stylesheet" href="assets/css/HomeStyle.css">
     <link rel="stylesheet" href="assets/css/listenStyle.css">
+    <link rel="stylesheet" href="assets/css/page-banner.css">
     <link rel="stylesheet" href="assets/css/resumeStyle.css">
 </head>
 
 <body>
     <div class="resume">
-        <nav class="navbar navbar-inverse navbar-static-top" style="background-color:rgb(1,1,1);color:rgb(255,251,251);">
+        <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:rgb(1,1,1);color:rgb(255,251,251);">
             <div class="container">
                 <div class="navbar-header"><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
                 <div
@@ -26,15 +27,14 @@
                         <li class="active" role="presentation"><a href="index.html" id="home-link" style="color:rgb(255,251,251);">Home </a></li>
                         <li role="presentation"><a class="hidden" href="listen.html" style="color:rgb(255,251,251);">Listen </a></li>
                         <li role="presentation"><a href="/listen.html" style="color:rgb(255,251,251);">Listen </a></li>
-                        <li role="presentation"><a href="/resume.html" style="color:rgb(255,251,251);">Events </a></li>
-                        <li role="presentation"><a href="/contact.html" style="color:rgb(255,251,251);">Contact </a></li>
+                        <li role="presentation"><a href="/events.html" style="color:rgb(255,251,251);">Events </a></li>
                     </ul>
             </div>
     </div>
     </nav>
     <div class="container">
-        <div class="col-md-12" id="resume-banner">
-            <h1 id="page-title" style="background-position:top;font-style:normal;font-weight:750;color:rgb(248,248,248);">Contact &amp; Resume </h1>
+        <div class="col-md-12" id="banner-background">
+            <h1 id="page-title" style="background-position:top;font-style:normal;font-weight:750;color:rgb(221,221,221);background-color:rgba(128,128,128,0.92);">Contact &amp; <strong>Résumé</strong> </h1>
         </div>
     </div>
     <div class="container" id="resume-header">
@@ -43,14 +43,14 @@
             <h2>Quinn Dizon</h2>
             <h5>Email: </h5>
             <p>qdizon@gmail.com </p>
-            <h5>Phone: </h5>
-            <p>Google Phone</p>
+            <h5 class="hidden">Phone: </h5>
+            <p class="hidden">Google Voice</p>
             <h5>Location: </h5>
             <p>Washington D.C.</p><button class="btn btn-default" type="button" id="emailButton">Contact Quinn</button></div>
         <div class="col-md-7" id="about">
             <h3>About Me:</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <p>I find the act of creating art and tools for others to experience or interact with, to be a fascinating and rewarding process. Composition came to me as the natural outgrowth of my love of music, and my desire to create. In recent years, I
+                have become more involved with technology and computer programming, and have used my skills with programs like Max MSP to explore new ways of creating musical experiences. </p>
         </div>
     </div>
     <div class="container" id="resume-body">
@@ -72,7 +72,7 @@
                 <p>University of Maryland College Park (2017 - current)</p>
                 <h6>Music Theory I &amp; II</h6>
                 <p> University of Maryland College Park (2016 - current) </p>
-                <h6>Summer Music Academy - Conducting &amp; Composition</h6>
+                <h6>Summer Music Academy - Conducting &amp; Composition Instructor</h6>
                 <p>Santa Rosa Symphony (2015 - 2017)</p>
                 <h6>Thompson Street Opera Company - Conductor</h6>
                 <p>Louisville, KY (2013 - 2015)</p>
@@ -80,7 +80,7 @@
         </div>
         <div class="row" style="width:100%;">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 section honors">
-                <h4><span style="text-decoration: underline;">HONORS &amp; AWARDS: </span></h4>
+                <h4><span style="text-decoration: underline;">SELECT HONORS &amp; AWARDS: </span></h4>
                 <h6>Flagship Fellow - University of Maryland College Park</h6>
                 <p>Only ten Flagship Fellowships are awarded annually across all graduate disciplines. The graduate population at UMD is approximately ten-thousand.</p>
                 <h6>Featured Artist at the UofL New Music Festival</h6>
@@ -93,10 +93,10 @@
                 <h4><span style="text-decoration: underline;">Skills</span>:</h4>
                 <h5>Original Composition</h5>
                 <p>10+ years</p>
-                <h5>Conducting </h5>
-                <p>7 years </p>
                 <h5>Arranging &amp; Engraving</h5>
                 <p>10 years </p>
+                <h5>Conducting </h5>
+                <p>7 years </p>
                 <h5>Audio Editing &amp; Recording</h5>
                 <p>8 years </p>
             </div>
@@ -114,11 +114,15 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 section honors">
-                <h4><span style="text-decoration: underline;">PROJECTS: </span></h4>
-                <h6>TEMPO New Music Ensemble - Installations</h6>
-                <p>NextNow Fest Installation</p>
-                <p>Maryland Day Installation (Group Project)</p>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 section installations">
+                <h4><span style="text-decoration: underline;">ELECTRONIC INSTALLATIONS: </span></h4>
+                <h6>TEMPO Maryland Day Installation</h6>
+                <p>Inspired by minimalist indeterminate music, such as Terry Riely's <em>In C</em>, the installation generates small musical fragments to be performed by a live ensemble. Audience members interact with the installation via a touch screen
+                    interface, and influence the shape of the unfolding composition in real time. The installation is written in Max MSP and javacript.&nbsp; </p>
+                <p class="hidden"><em>Files for this installation are available on</em> <a href="https://github.com/QED0711/TEMPO-Maryland-Day" target="_blank"><em>Github </em></a></p>
+                <h6>Medium: An interactive Sound Installation Presented by TEMPO</h6>
+                <p>Interacting with an onsite acoustic piano, festival attendees recorded over 120 audio fragments. These fragments underwent spectral processing, and were continuously looped through a pair speakers pointed towards the sounding board of
+                    the piano. The resulting sound was a unique mix of acoustic and electronic music.&nbsp;The installation is written in Max MSP </p>
             </div>
         </div>
     </div>

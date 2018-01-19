@@ -7,9 +7,10 @@
   color:black;
 }
 
-.resume #resume-banner {
-  text-align:center;
-  background-image:url(../../assets/img/contact.jpg);
+.resume #banner-background {
+  /*text-align:center;*/
+  background-image:url(../../assets/img/resume2.jpeg);
+  /*background-size:cover;*/
 }
 
 .resume #resume-container {
@@ -81,5 +82,9 @@
 
 .resume .shortform h5 {
   margin-top:-6px;
+}
+
+.installation ul li {
+  margin-top:-5px;
 }
 

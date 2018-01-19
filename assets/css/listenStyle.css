@@ -3,19 +3,14 @@
   padding-bottom:30px;
 }
 
-.listen #listen-banner {
+.listen #banner-background {
   background-image:url(../../assets/img/listen.jpeg);
-  background-size:cover;
-  min-height:75px;
-  text-align:center;
-  color:black;
-  border-radius:10px;
-}
-
-.listen #page-title {
-  margin:0 0 0 0;
-  padding-top:10px;
-  color:black;
+  /*background-size:cover;*/
+  /*min-height:75px;*/
+  /*text-align:center;*/
+  /*color:black;*/
+  /*border-radius:10px;*/
+  /*margin-top:65px;*/
 }
 
 .listen h3 {
@@ -40,11 +35,6 @@
   border-color:grey;
 }
 
-.listen #home-link {
-  border-radius:50px;
-  border-right:outset;
-}
-
 .listen .genre-heading {
   border-style:hidden hidden solid hidden;
   border-color:grey;
@@ -52,5 +42,25 @@
 
 .listen .genre h4 {
   color:grey;
+}
+
+.listen #work-list {
+  margin-top:20px;
+  color:grey;
+}
+
+.listen #work-list h2 {
+  color:white;
+  border-style:hidden hidden solid hidden;
+  border-color:grey;
+  padding-bottom:5px;
+}
+
+#link-to-works {
+  padding:7px 6px 7px 5px;
+  border-radius:8px;
+  background-color:rgb(47,47,47);
+  color:rgb(157,157,157);
+  margin-left:-17px;
 }
 

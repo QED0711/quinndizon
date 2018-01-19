@@ -1,0 +1,16 @@
+#banner-background {
+  background-size:cover;
+  text-align:center;
+  margin-top:65px;
+  border-radius:10px;
+  padding:4px 10px;
+}
+
+#page-title {
+  background-color:rgba(128,128,128,0.66);
+  border-radius:8px;
+  color:rgb(221,221,221);
+  padding:5px 0px 5px 0px;
+  margin:10px 4px 10px 4px;
+}
+

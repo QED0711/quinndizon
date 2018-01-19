@@ -2,11 +2,12 @@
   background-color:black;
 }
 
-.events #events-banner {
+.events #banner-background {
   background-image:url(../../assets/img/events-banner-img.jpeg);
   background-size:cover;
-  text-align:center;
-  border-radius:10px;
+  /*text-align:center;*/
+  /*border-radius:10px;*/
+  /*margin-top:65px;*/
 }
 
 .events .event {
@@ -35,7 +36,7 @@
 }
 
 .events .event-text p {
-  color:#585858;
+  color:#6d6d6d;
 }
 
 .events .event-left {
@@ -50,6 +51,9 @@
   border:solid;
 }
 
+.event-info {
+}
+
 .events .event-info h4 {
   color:#6E6E6E;
 }
@@ -57,9 +61,5 @@
 .events .event-info h5 {
   color:#585858;
   margin-top:-8px;
-}
-
-.events {
-  background-color:charcole;
 }
 
